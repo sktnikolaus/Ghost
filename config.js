@@ -22,8 +22,8 @@ production: {
     port: 465,
     options: {
       auth: {
-        user: 'nikolaus.volk@googlemail.com',//process.env.GMAIL_USER,
-        pass: '!Quality!'//process.env.GMAIL_PASSWORD
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_PASSWORD
       }
     }
   },
